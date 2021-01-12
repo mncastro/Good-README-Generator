@@ -16,48 +16,50 @@
 function createREADME (data) {
     return `
     
-    # ${data.title}
+# ${data.title}
 
-    ## Description
+## Description
 
-    ${data.description}
+${data.description}
     
 
-    ## Author's info (About Me)
+## Author's info (About Me)
 
-    This application was created by ${data.username}
-    Contact email: ${data.email}
-    Github repository: ${data.repoGit}
+This application was created by ${data.username}
+Contact email: ${data.email}
+Github repository: ${data.repoGit}
 
-    ## Contributing
+## Contributing
 
-    ${data.contributors}
+${data.contributors}
 
-    ## Installation
+## Installation
 
-    ${data.installation}
+${data.installation}
 
-    ## Usage
+## Usage
 
-    ${data.use}
+${data.use}
 
-    ## License 
+## License 
 
-    This application was developed under the ${data.license} license
+This application was developed under the ${data.license} license
 
-    ## Support 
+## Support 
 
-    ${data.support}
+${data.support}
 
-    ## Credits and acknowledgements
+## Credits and acknowledgements
 
-    ${data.credits}
+${data.credits}
 
-    ## Summary of Questions and Answers
+## Summary of Questions and Answers
 
-    ${data.questions}
+${data.questions}
     `;
 };
+
+// Exporting function's data to index.js for input to final markdown file
 
 module.exports = createREADME;
 
