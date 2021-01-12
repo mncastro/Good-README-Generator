@@ -74,7 +74,6 @@ const questions = [
         name: "credits",
         default: "This repository is an original project by the author." 
     }
-
 ];
 
 // function to write README file
