@@ -66,13 +66,13 @@ const questions = [
         type: "input",
         message: "Who can users contact for support? (Add email or Github account)",
         name: "support",
-        default: "This repository does not offer user support"
+        default: "This repository does not offer user support."
     }, 
     {
         type: "input",
         message: "Anyone you want to aknowledge or credit? (Leave blank if you're the only author)",
         name: "credits",
-        default: "This repository is an original project by the author" 
+        default: "This repository is an original project by the author." 
     }
 
 ];
