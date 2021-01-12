@@ -3,7 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-// Variable to generate README markdownn file
+// Variable to import README markdownn module
 var createREADME = require("./utils/generateMarkdown.js")
 
 // Creates variable with array of questions for user

@@ -14,9 +14,8 @@
 // Summary of Questions and Answers
 
 function createREADME (data) {
-    return;
-
-    `
+    return `
+    
     # ${data.title}
 
     ## Description
