@@ -22,7 +22,6 @@ function createREADME (data) {
 
 ${data.description}
     
-
 ## Author's info (About Me)
 
 This application was created by ${data.username}
@@ -43,7 +42,7 @@ ${data.use}
 
 ## License 
 
-This application was developed under the ${data.license} license
+This application was developed under the ${data.license} license.
 
 ## Support 
 
@@ -53,9 +52,20 @@ ${data.support}
 
 ${data.credits}
 
-## Summary of Questions and Answers
+## Summary of Answers
 
-${data.questions}
+-${data.title}
+-${data.description}
+-${data.username}
+-${data.email}
+-${data.repoGit}
+-${data.contributors}
+-${data.installation}
+-${data.use}
+-${data.license}
+-${data.support}
+-${data.credits}
+
     `;
 };
 
